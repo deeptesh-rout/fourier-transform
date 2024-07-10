@@ -1,0 +1,40 @@
+html,
+body {
+	height: 100vh;
+	margin: 0;
+	width: 100vw;
+}
+body {
+	display: grid;
+	place-content: center;
+}
+
+svg {
+	border: 1px solid black;
+	width: 100vw;
+	height: 100vh;
+}
+
+#pane-container {
+	position: fixed;
+	right: 10px;
+	top: 10px;
+	width: 250px;
+
+	.tp-lblv_l {
+		max-width: 50px;
+	}
+
+	input[type="range"] {
+		min-width: 260px;
+	}
+
+	input:not([type="range"]) {
+		width: 60px;
+	}
+}
+
+input.tp-txtv_i {
+	min-width: 100%;
+}
+
